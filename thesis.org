@@ -19,15 +19,14 @@ expressly forbid and mixing data with different licenses effectively relicences
 the same software.
 
 ** Supporting idea - impure imaginary code
-The recently burgeoning and soon to be
-diminishing programming paradigm of prompt
-engineering is about to be superseded by
-prompt-tuning and the fine-tuning of LMs which
-will further occlude the way that software
-works. Prompt engineering barely had it's time
-in the spotlight and as a result has not
-established itself as a sovereign programming
-paradigm.
+The recently burgeoning and soon to diminish
+programming paradigm of prompt engineering is
+about to be superseded by prompt-tuning and
+the fine-tuning of LMs which will further
+occlude the way that software works. Prompt
+engineering barely has had it's time in the
+spotlight and as a result has not established
+itself as a sovereign programming paradigm.
 
 However, imaginary programming is a broader
 definition that encapsulates all programming

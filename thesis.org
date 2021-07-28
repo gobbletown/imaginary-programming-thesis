@@ -24,7 +24,10 @@ diminishing programming paradigm of prompt
 engineering is about to be superseded by
 prompt-tuning and the fine-tuning of LMs which
 will further occlude the way that software
-works.
+works. Prompt engineering barely had it's time
+in the spotlight and as a result has not
+established itself as a sovereign programming
+paradigm.
 
 Impure imaginary code is where ordinary code intersects with pure imaginary code.
 An impure imaginary function is just an

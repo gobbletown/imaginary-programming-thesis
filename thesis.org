@@ -625,6 +625,9 @@ Pure imaginary functions can be composed.
 ** New types of languages are required to work with language models
 *** Example-oriented
 *** Task oriented
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  ("translate" ("make analogy about" "topic") "from" "to")
+#+END_SRC
 
 ** Projecting the code back to the starting LM is possible
 - Semantic search on existing documents

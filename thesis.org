@@ -400,6 +400,7 @@ specify the operating system that the commands
 generated should run on.
 
 **** With two =Pen.el= systems
+***** With a common language model
 Translating communications with a world
 language translation prompt function.
 
@@ -478,12 +479,16 @@ A demonstration of backtranslation:
   To you
 #+END_SRC
 
+https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb
+
 #+BEGIN_EXPORT html
 <!-- Play on asciinema.com -->
 <!-- <a title="asciinema recording" href="https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb" target="_blank"><img alt="asciinema recording" src="https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb.svg" /></a> -->
 <!-- Play on the blog -->
 <script src="https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb.js" id="asciicast-7YnSnrrLgbiFlyMyYxBgaZYUb" async></script>
 #+END_EXPORT
+
+One useful utility of impure imaginary functions is translation.
 
 **** With three =Pen.el= systems
 - Database prompt

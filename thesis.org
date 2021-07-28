@@ -15,8 +15,10 @@ representation of the software, alongside the original source code, just as
 functions may be represented differently.
 
 ** Give a reason that supports your main idea
-Write your reason as a clear statement. Be sure that you can support this
-reason with logical facts and evidence.
+Pure imaginary programming is a type of programming where the original language
+models may not even be known.
+
+I demonstate that collaborative pure imaginary programming is useful.
 
 ** Give another reason that supports your main idea
 

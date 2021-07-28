@@ -529,6 +529,10 @@ A common library of pure imaginary functions.
   ("translate" "prose" "from" "to")
 #+END_SRC
 
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
+  ("translate" ("make analogy about" "topic") "from" "to")
+#+END_SRC
+
 ** Projecting the code back to the starting LM is possible
 - Semantic search on existing documents
 - Semantic search on existing functions in emacs

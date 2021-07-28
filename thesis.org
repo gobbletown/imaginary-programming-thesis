@@ -452,7 +452,9 @@ language translation prompt function.
   filter: on
 #+END_SRC
 
-A demonstration of backtranslation:
+A demonstration of two people who understand
+different world languages using a common LM to
+understand one another.
 
 #+NAME: fromenglish
 #+BEGIN_SRC text -n :async :results verbatim code
@@ -461,6 +463,7 @@ A demonstration of backtranslation:
 #+END_SRC
 
 #+BEGIN_SRC emacs-lisp -n :async :results code raw
+  ;; Alice translates into french for Bob
   (car (pf-translate-from-world-language-x-to-y "English" "French" "Happy birthday\nTo you" :no-select-result t))
 #+END_SRC
 
@@ -470,13 +473,18 @@ A demonstration of backtranslation:
   A vous
 #+END_SRC
 
+#+BEGIN_SRC text -n :async :results verbatim code
+  Merci
+  beaucoup
+#+END_SRC
+
 #+BEGIN_SRC emacs-lisp -n :async :results code raw
-  (car (pf-translate-from-world-language-x-to-y "French" "English" "Bon anniversaire\nA vous" :no-select-result t))
+  ;; Bob translates back into English for Alice
+  (car (pf-translate-from-world-language-x-to-y "French" "English" "Merci\nbeaucoup" :no-select-result t))
 #+END_SRC
 
 #+BEGIN_SRC text -n :async :results verbatim code
-  Happy birthday
-  To you
+  Thank you!
 #+END_SRC
 
 https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb

@@ -10,12 +10,20 @@ be recognised as code so that it may be protected by GPL. I also posit that
 models of natural language, if trained on source code, create a holographic
 representation of the software, which I argue is a derivative work and a
 reflection of the original code. I argue that a holographic representation of
-software both within and without (how it is used) is just another
+software both within (author inspiration) and without (how it is used) is just another
 representation of the software, alongside the original source code, just as
 functions may be represented differently. In the future, as holographic
 software is used more, and language models are used more to simulate software,
 the hologram of the software may be used for reasons that the original author
-forbid.
+expressly forbid and mixing data with different licenses effectively relicences
+the same software.
+
+** Supporting idea - impure imaginary programming
+Impure imaginary programming is prompt engineering. It is the basis for 'magic'
+services such as Copilot and AI Dungeon. This burgeoning programming paradigm
+is about to be superceeded by prompt-tuning, further occluding the way that software works.
+
+I demonstate that collaborative impure imaginary programming is useful and it is being used.
 
 ** Supporting idea - pure imaginary programming
 Pure imaginary programming is a type of programming where the original language
@@ -33,7 +41,7 @@ encode contrived associations made between different pieces of software in
 order to create an accurate model that is useful for simulation, code
 generation, code understanding and modelling the usage of software.
 
-** Spporting idea - 
+** Spporting idea - language models
 Tell us one reason that supports your opinion. Write your reason as a clear
 statement. Be sure that you can support this reason with logical facts and
 evidence.

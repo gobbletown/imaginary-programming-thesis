@@ -2,7 +2,9 @@
 
 ** Abstract
 Imaginary code is code who's behaviour is
-influenced by LMs. I will attempt to formalise
+influenced by LMs. The side effects or return
+values of imaginary code, therefore, are
+imagined by a LM. I will attempt to formalise
 imaginary programming, make some
 demonstrations of programming within this
 paradigm and explore some useful data

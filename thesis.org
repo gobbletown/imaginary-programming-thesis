@@ -498,7 +498,7 @@ generation, code understanding and modelling the usage of software.
 
 ** Counter arguments
 *** It's not imaginary, it's just... English? more like, stochastic programming?
-So your code might take a trip through someone
+Your code might take a trip through someone
 else's LM along the way and be projected back
 to your own.
 

@@ -85,7 +85,7 @@ function is just a function that prompts a LM
 and may optionally be parameterized with
 template variables that are substituted into
 the prompt or also contain hyperparameters to
-affect LM's operation.
+affect the LM's operation.
 
 Such functions are the basis for services such
 as GitHub Copilot.

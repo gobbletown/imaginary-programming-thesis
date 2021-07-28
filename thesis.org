@@ -483,6 +483,8 @@ models may not even be known.
 I demonstate that collaborative pure imaginary programming is useful.
 
 ** Supporting idea - projecting the code back to the starting LM
+- Semantic search on existing documents
+- Semantic search on existing features of emacs
 
 ** Supporting idea - language models encode holographic representations of software
 I am able to generate parts of GPL protected software using language models and

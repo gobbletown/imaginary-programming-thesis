@@ -24,7 +24,7 @@ programming paradigm of prompt engineering is
 about to be superseded by prompt-tuning and
 the fine-tuning of LMs which will further
 occlude the way that software works. Prompt
-engineering barely has had it's time in the
+engineering has barely had it's time in the
 spotlight and as a result has not established
 itself as a sovereign programming paradigm.
 

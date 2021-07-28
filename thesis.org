@@ -159,7 +159,6 @@ and function in emacs lisp.
 
   Source Code
   ;; Defined in ~/source/git/semiosis/pen.el/src/pen-example-config.el
-  ;; Could not find source code, showing raw function object.
 
   Symbol Properties
   event-symbol-element-mask

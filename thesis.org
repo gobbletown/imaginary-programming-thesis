@@ -435,22 +435,22 @@ https://semiosis.github.io/posts/imaginary-programming-with-gpt-3/
   future-titles:
   - Code interpreter kickstarter
   doc: Given a line of code, infer the result of running that code
-  prompt-version: 3
+  prompt-version: 4
   prompt: |
     Code examples:
-  
-    # Language: Python
-    print(random.randint(0,9))
-    # Output: 5
+
+    Language: Python
+    Input: print(random.randint(0,9))
+    Output: 5
     ###
-    # Language: Bash
-    Str="Learn Linux from LinuxHint"
-    subStr=${Str:6:5}
-    # Output: Linux
+    Language: Bash
+    Input: Str="Learn Linux from LinuxHint"; subStr=${Str:6:5}
+    Output: Linux
     ###
-    # Language: <1>
-    <2>
-    # Output:
+  repeater: |
+    Language: <1>
+    Input: {}
+    Output:
   issues: 
   engine: davinci
   temperature: 0.8
@@ -458,7 +458,8 @@ https://semiosis.github.io/posts/imaginary-programming-with-gpt-3/
   top-p: 1
   stop-sequences:
   - "##"
-  - "\n\n"
+  - "\n"
+  # - "\n\n"
   vars:
   - language
   - code
@@ -469,8 +470,9 @@ https://semiosis.github.io/posts/imaginary-programming-with-gpt-3/
   external: iol
   similarity-test: string-equal
   quality-script: levenshtein -s
+  conversation-mode: true
   n-test-runs: 5
-  postprocessor: clean-repl | pen-s join '; '
+  # postprocessor: clean-repl | pen-s join '; '
 #+END_SRC
 
 #+BEGIN_SRC emacs-lisp -n :async :results raw

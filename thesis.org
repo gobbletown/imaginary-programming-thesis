@@ -82,6 +82,8 @@ programming environment, performing code generation, transpiling, code
 understanding and NLP.
 
 The following prompt definition function
+connects a prompt to a LM (OpenAI's GPT-3
+davinci).
 
 #+BEGIN_SRC yaml -n :async :results verbatim code
   title: bash one liner generator on OS from natural language

@@ -20,7 +20,7 @@ models may not even be known.
 
 I demonstate that collaborative pure imaginary programming is useful.
 
-** Supporting idea - language models contain a holographic representation of software
+** Supporting idea - language models encode holographic representations of software
 I am able to generate parts of GPL protected software using language models and
 can query the language models as to how they are used.
 

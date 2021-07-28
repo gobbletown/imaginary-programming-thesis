@@ -126,7 +126,7 @@ davinci) and defines the parameters for a function in emacs lisp.
 #+END_SRC
 
 The following is the generated documentation
-and function in emacs lisp.
+for the interactive prompt function in emacs.
 
 #+BEGIN_SRC text -n :async :results verbatim code
   pf-bash-one-liner-generator-from-natural-language is an interactive
@@ -168,6 +168,8 @@ and function in emacs lisp.
   modifier-cache
     ((0 . pf-bash-one-liner-generator-from-natural-language))
 #+END_SRC
+
+Below is the generated interactive function in emacs lisp.
 
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (lambda

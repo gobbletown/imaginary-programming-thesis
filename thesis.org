@@ -31,7 +31,7 @@ Therefore, the software exists now in the latent space of a language model in
 the form of a hologram, within and without the source code. Language models
 encode contrived associations made between different pieces of software in
 order to create an accurate model that is useful for simulation, code
-generation and code understanding.
+generation, code understanding and modelling the usage of software.
 
 ** Spporting idea - 
 Tell us one reason that supports your opinion. Write your reason as a clear

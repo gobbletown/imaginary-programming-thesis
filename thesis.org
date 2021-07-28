@@ -451,6 +451,12 @@ language translation prompt function.
   filter: on
 #+END_SRC
 
+Happy birthday
+To you
+
+Bon anniversaire
+À vous
+
 **** With three =Pen.el= systems
 - Database prompt
 

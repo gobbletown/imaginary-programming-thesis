@@ -400,8 +400,8 @@ Below is the generated interactive function in emacs lisp.
 The above function creates a NL shell. This
 enables you to generate shell commands based
 on NL and it is parameterized to enable you to
-specify which operating system the commands to
-be generated should run on.
+specify the operating system that the commands
+generated should run on.
 
 ** Supporting idea - pure imaginary code
 Pure imaginary programming is a type of programming where the original language

@@ -43,7 +43,8 @@ intersects with pure imaginary code. An impure
 imaginary function is a function that queries
 a LM to directly affect its own logic or
 output. We say that an impure imaginary
-function is grounded [to reality].
+function is grounded [to reality] because it's
+connecting base reality to a LM.
 
 The output of an impure
 imaginary function is directly influenced by a

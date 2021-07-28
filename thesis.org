@@ -22,8 +22,8 @@ the same software.
 Impure imaginary programming is prompt
 engineering. It is the basis for 'magic' services such as GitHub Copilot. This
 burgeoning programming paradigm is about to be
-superceeded by prompt-tuning and fine-tuning language models, further
-occluding the way that software works. Prompt-tuning still results in prompts still imaginary programming.
+superseded by prompt-tuning and the fine-tuning of language models which will further
+occlude the way that software works. Prompt-tuning still results in prompts still imaginary programming.
 
 I demonstate that prompt engineering is useful for constructing an imaginary
 programming environment, code generation, code understanding and natural

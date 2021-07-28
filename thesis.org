@@ -64,8 +64,9 @@ can perform multiple tasks, the process of
 refining a query through prompt-engineering,
 prompt-tuning or fine-tuning also
 characterises the expected output from the LM.
-All that is left is to map prompts to
-functions.
+All that is left is to map a prompt along with
+its associated LM to a function and then you
+have a prompt function.
 
 Prompt functions reconcile LMs with
 programming languages and to be clear, a

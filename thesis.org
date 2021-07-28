@@ -406,7 +406,8 @@ specify the operating system that the commands
 generated should run on.
 
 **** With two =Pen.el= systems
-- Database prompt
+Forwards and backwards translation.
+
 **** With three =Pen.el= systems
 - Database prompt
 

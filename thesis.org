@@ -81,7 +81,8 @@ is useful for constructing an imaginary
 programming environment, performing code generation, transpiling, code
 understanding and NLP.
 
-*** A useful impure imaginary function
+*** Useful impure imaginary functions
+**** On one =Pen.el= system
 The following prompt function definition function
 associates a prompt with a LM (OpenAI's GPT-3
 davinci) and defines the parameters for a function in emacs lisp.
@@ -403,6 +404,11 @@ enables you to generate shell commands based
 on NL and it is parameterized to enable you to
 specify the operating system that the commands
 generated should run on.
+
+**** With two =Pen.el= systems
+- Database prompt
+**** With three =Pen.el= systems
+- Database prompt
 
 *** An impure imaginary data structure
 **** With one =Pen.el= system

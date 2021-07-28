@@ -622,6 +622,8 @@ Pure imaginary functions can be composed.
   ("translate" ("make analogy about" "topic") "from" "to")
 #+END_SRC
 
+** New languages are required to work with language models
+
 ** Projecting the code back to the starting LM is possible
 - Semantic search on existing documents
 - Semantic search on existing functions in emacs

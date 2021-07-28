@@ -50,6 +50,16 @@ The output and behaviour of an impure
 imaginary function is directly influenced by
 base reality plus a query to a LM.
 
+The query [or prompt] to the LM may be in part
+constructed manually through prompt
+engineering, or in part constructed
+automatically via prompt tuning, or in part constructed or eliminated by the fine-
+tuning of a LM. Even after fine-tuning, there
+is still a query to be formulated to the LM,
+and that query may indeed be empty.
+
+, but functions, which are the functions that .
+
 Those prompts may
 be designed in a process that is called prompt
 engineering, or they may be the result of an

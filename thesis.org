@@ -81,6 +81,8 @@ is useful for constructing an imaginary
 programming environment, performing code generation, transpiling, code
 understanding and NLP.
 
+The following is a prompt
+
 #+BEGIN_SRC yaml -n :async :results verbatim code
   title: bash one liner generator on OS from natural language
   doc: Get a bash one liner on OS from natural language

@@ -18,18 +18,33 @@ the hologram of the software may be used for reasons that the original author
 expressly forbid and mixing data with different licenses effectively relicences
 the same software.
 
-** Supporting idea - impure imaginary programming
-Impure imaginary programming is prompt
-engineering. It is the basis for 'magic' services such as GitHub Copilot. This
-burgeoning programming paradigm is about to be
-superseded by prompt-tuning and the fine-tuning of language models which will further
-occlude the way that software works. Prompt-tuning still results in prompts still imaginary programming.
+** Supporting idea - impure imaginary code
+The burgeoning programming paradigm of prompt
+engineering is about to be superseded by
+prompt-tuning and the fine-tuning of LMs which
+will further occlude the way that software
+works.
+
+Impure imaginary code is where ordinary code intersects with pure imaginary code.
+An impure imaginary function is just an
+ordinary function which queries a LM to define
+part of its behaviour. The output of an impure
+imaginary function is directly influenced by a
+query to a LM.
+
+Those prompts may
+be designed in a process that is called prompt
+engineering, or they may be the result of an
+optimisation process called prompt-tuning.
+A prompt function is a function that queries a language model with a prompt.
+
+Such functions are the basis for services such as GitHub Copilot. Prompt-tuning still imaginary programming.
 
 I demonstate that prompt engineering is useful for constructing an imaginary
 programming environment, code generation, code understanding and natural
 language processing.
 
-** Supporting idea - pure imaginary programming
+** Supporting idea - pure imaginary code
 Pure imaginary programming is a type of programming where the original language
 models may not even be known.
 

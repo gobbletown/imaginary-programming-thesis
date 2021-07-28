@@ -451,11 +451,29 @@ language translation prompt function.
   filter: on
 #+END_SRC
 
-Happy birthday
-To you
+#+NAME: fromenglish
+#+BEGIN_SRC text -n :async :results verbatim code
+  Happy birthday
+  To you
+#+END_SRC
 
-#+BEGIN_SRC emacs-lisp -n :async :results verbatim raw
-  (pf-translate-from-world-language-x-to-y "English" "French" "Happy birthday\nTo you" :no-select-result t)
+#+BEGIN_SRC emacs-lisp -n :async :results code raw
+  (car (pf-translate-from-world-language-x-to-y "English" "French" "Happy birthday\nTo you" :no-select-result t))
+#+END_SRC
+
+#+NAME: fromfrench
+#+BEGIN_SRC text -n :async :results verbatim code
+  Bon anniversaire
+  A vous
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp -n :async :results code raw
+  (car (pf-translate-from-world-language-x-to-y "French" "English" "Bon anniversaire\nA vous" :no-select-result t))
+#+END_SRC
+
+#+BEGIN_SRC text -n :async :results verbatim code
+  Happy birthday
+  To you
 #+END_SRC
 
 **** With three =Pen.el= systems

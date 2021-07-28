@@ -81,7 +81,7 @@ is useful for constructing an imaginary
 programming environment, performing code generation, transpiling, code
 understanding and NLP.
 
-The following is a prompt
+The following prompt definition function
 
 #+BEGIN_SRC yaml -n :async :results verbatim code
   title: bash one liner generator on OS from natural language
@@ -90,22 +90,22 @@ The following is a prompt
   - "rlprompt is used here outside of pen.el"
   rlprompt: nlsh <1>
   prompt: |
-  # List of one-liner shell commands for <1>.
-  # Language: Shell
-  # Operating System: <1>
-  
-  Input: Print the current directory
-  Output: pwd
-  ###
-  Input: List files
-  Output: ls -l
-  ###
-  Input: Change directory to /tmp
-  Output: cd /tmp
-  ###
-  repeater: |
-  Input: {}
-  Output:
+      # List of one-liner shell commands for <1>.
+      # Language: Shell
+      # Operating System: <1>
+
+      Input: Print the current directory
+      Output: pwd
+      ###
+      Input: List files
+      Output: ls -l
+      ###
+      Input: Change directory to /tmp
+      Output: cd /tmp
+      ###
+      repeater: |
+      Input: {}
+      Output:
   engine: davinci
   temperature: 0.8
   max-tokens: 60

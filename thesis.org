@@ -491,6 +491,7 @@ https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb
 One useful utility of impure imaginary functions is translation.
 
 ***** With different language models
+GPT-neo and GPT-3?
 
 **** With three =Pen.el= systems
 - Database prompt

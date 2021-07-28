@@ -1,22 +1,32 @@
 * Imaginary programming is a new programming paradigm based on language models
 
-** Main idea
-Imaginary code is code who's behaviour is influenced by language models. I will
-attempt to formalise imaginary programming, make some demonstrations of
-programming within this paradigm and explore some useful data structures and
-algorithms that are both impurely and purely imaginary. The motivation for
-formalising this is not purely academic. Imaginary code needs to
-be recognised as code so that it may be protected by GPL. I also posit that
-models of natural language, if trained on source code, create a holographic
-representation of the software, which I argue is a derivative work and a
-reflection of the original code. I argue that a holographic representation of
-software both within (author inspiration) and without (how it is used) is just another
-representation of the software, alongside the original source code, just as
-functions may be represented differently. In the future, as holographic
-software is used more, and language models are used more to simulate software,
-the hologram of the software may be used for reasons that the original author
-expressly forbid and mixing data with different licenses effectively relicences
-the same software.
+** Abstract
+Imaginary code is code who's behaviour is
+influenced by LMs. I will attempt to formalise
+imaginary programming, make some
+demonstrations of programming within this
+paradigm and explore some useful data
+structures and algorithms that are both
+impurely and purely imaginary. The motivation
+for formalising this is not purely academic.
+Imaginary code needs to be recognised as code
+so that it may be protected by GPL. I also
+posit that models of NL, if trained on source
+code, create a holographic representation of
+the software, which I argue is a derivative
+work and a reflection of the original code. I
+argue that a holographic representation of
+software both within (author inspiration) and
+without (how it is used) is just another
+representation of the software, alongside the
+original source code, just as functions may be
+represented differently. In the future, as
+holographic software is used more, and LMs are
+used more to simulate software, the hologram
+of the software may be used for reasons that
+the original author expressly forbid and
+mixing data with different licenses
+effectively relicences the same software.
 
 ** Supporting idea - impure imaginary code
 The recently burgeoning and soon to diminish

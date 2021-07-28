@@ -106,6 +106,7 @@ The following prompt definition function
       repeater: |
       Input: {}
       Output:
+  lm-command: "openai-complete.sh"
   engine: davinci
   temperature: 0.8
   max-tokens: 60

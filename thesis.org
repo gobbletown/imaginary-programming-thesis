@@ -123,6 +123,271 @@ The following prompt definition function
   conversation-mode: true
 #+END_SRC
 
+#+BEGIN_SRC text -n :async :results verbatim code
+  pf-bash-one-liner-generator-from-natural-language is an interactive
+  function defined in pen-example-config.el.
+  
+  Signature
+  (pf-bash-one-liner-generator-from-natural-language &optional TASK-DESCRIPTION &key NO-SELECT-RESULT)
+  
+  Documentation
+  bash one liner generator from natural language
+  Get a bash one liner from natural language
+  
+  path:
+  - /home/shane/source/git/spacemacs/prompts/prompts/bash-one-liner.prompt
+  
+  examples:
+  - shift last argument
+  
+  Key Bindings
+  This command is not in any keymaps.
+  
+  References
+  pf-bash-one-liner-generator-from-natural-language is unused in pen-example-config.el.
+  
+  Find all references Functions used by pf-bash-one-liner-generator-from-natural-language
+  
+  Debugging
+  Enable tracing
+  Disassemble Forget
+  
+  Source Code
+  ;; Defined in ~/source/git/semiosis/pen.el/src/pen-example-config.el
+  ;; Could not find source code, showing raw function object.
+  (lambda
+    (&optional task-description &rest --cl-rest--)
+    "bash one liner generator from natural language\nGet a bash one liner from natural language\n\npath:\n- /home/shane/source/git/spacemacs/prompts/prompts/bash-one-liner.prompt\n\nexamples:\n- shift last argument\n\n(fn &optional TASK-DESCRIPTION &key NO-SELECT-RESULT)"
+    (interactive
+     (list
+      (if mark-active
+          (pen-selected-text)
+        (if nil
+            (etv "shift last argument")
+          (read-string-hist "task-description: " "shift last argument")))))
+    (let*
+        ((no-select-result
+          (car
+           (cdr
+            (plist-member --cl-rest-- ':no-select-result)))))
+      (progn
+        (let
+            ((--cl-keys-- --cl-rest--))
+          (while --cl-keys--
+            (cond
+             ((memq
+               (car --cl-keys--)
+               '(:no-select-result :allow-other-keys))
+              (setq --cl-keys--
+                    (cdr
+                     (cdr --cl-keys--))))
+             ((car
+               (cdr
+                (memq ':allow-other-keys --cl-rest--)))
+              (setq --cl-keys-- nil))
+             (t
+              (error "Keyword argument %s not one of (:no-select-result)"
+                     (car --cl-keys--))))))
+        (cl-block pf-bash-one-liner-generator-from-natural-language
+          (let*
+              ((final-prompt "The following is a list of one-liners for the linux command-line:\n\n# get newest file in directory bash\n$ ls -t * | head -1\n###\n# Find with invert match - e.g. find every file that is not mp3\n$ find . -name '*' -type f -not -path '*.mp3'\n###\n# Recursively remove all \"node_modules\" folders\n$ find . -name \"node_modules\" -exec rm -rf '{}' +\n###\n# <1>\n$\n")
+               (final-max-tokens
+                (str
+                 (if
+                     (variable-p 'max-tokens)
+                     (eval 'max-tokens)
+                   60)))
+               (final-stop-sequences
+                (if
+                    (variable-p 'stop-sequences)
+                    (eval 'stop-sequences)
+                  '("###")))
+               (vals
+                (mapcar 'str
+                        (if
+                            (not
+                             (interactive-p))
+                            (progn
+                              (cl-loop for sym in
+                                       '(task-description)
+                                       for iarg in
+                                       '((if mark-active
+                                             (pen-selected-text)
+                                           (if nil
+                                               (etv "shift last argument")
+                                             (read-string-hist "task-description: " "shift last argument"))))
+                                       collect
+                                       (let*
+                                           ((initval
+                                             (eval sym)))
+                                         (if
+                                             (and
+                                              (not initval)
+                                              iarg)
+                                             (eval iarg)
+                                           initval))))
+                          (cl-loop for v in
+                                   '(task-description)
+                                   until
+                                   (eq v '&key)
+                                   collect
+                                   (eval v)))))
+               (vals
+                (cl-loop for tp in
+                         (-zip-fill nil vals 'nil)
+                         collect
+                         (let*
+                             ((v
+                               (car tp))
+                              (pp
+                               (cdr tp)))
+                           (if pp
+                               (pen-sn pp v)
+                             v))))
+               (i 1)
+               (final-prompt
+                (pen-expand-template final-prompt vals))
+               (prompt-end-pos
+                (or
+                 (byte-string-search "<:pp>" "The following is a list of one-liners for the linux command-line:\n\n# get newest file in directory bash\n$ ls -t * | head -1\n###\n# Find with invert match - e.g. find every file that is not mp3\n$ find . -name '*' -type f -not -path '*.mp3'\n###\n# Recursively remove all \"node_modules\" folders\n$ find . -name \"node_modules\" -exec rm -rf '{}' +\n###\n# <1>\n$\n")
+                 (string-bytes final-prompt)))
+               (final-prompt
+                (string-replace "<:pp>" "" final-prompt))
+               (final-prompt
+                (if nil
+                    (sor
+                     (pen-snc nil final-prompt)
+                     (concat "prompt-filter " nil " failed."))
+                  final-prompt))
+               (pen-sh-update
+                (or pen-sh-update
+                    (>=
+                     (prefix-numeric-value current-global-prefix-arg)
+                     4)))
+               (shcmd
+                (pen-log
+                 (concat
+                  (sh-construct-envs
+                   `(("PEN_PROMPT" ,(pen-encode-string final-prompt))
+                     ("PEN_LM_COMMAND" ,"openai-complete.sh")
+                     ("PEN_ENGINE" ,"davinci")
+                     ("PEN_MAX_TOKENS" ,(pen-expand-template final-max-tokens vals))
+                     ("PEN_TEMPERATURE" ,(pen-expand-template
+                                          (str 0.8)
+                                          vals))
+                     ("PEN_STOP_SEQUENCE" ,(pen-encode-string
+                                            (str
+                                             (if
+                                                 (variable-p 'stop-sequence)
+                                                 (eval 'stop-sequence)
+                                               "###"))))
+                     ("PEN_TOP_P" ,1)
+                     ("PEN_CACHE" ,nil)
+                     ("PEN_N_COMPLETIONS" ,5)
+                     ("PEN_END_POS" ,prompt-end-pos)))
+                  " " "upd lm-complete")))
+               (resultsdirs
+                (cl-loop for i in
+                         (number-sequence 1 1)
+                         collect
+                         (progn
+                           (message
+                            (concat "pf-bash-one-liner-generator-from-natural-language" " query "
+                                    (int-to-string i)
+                                    "..."))
+                           (let
+                               ((ret
+                                 (pen-prompt-snc shcmd i)))
+                             (message
+                              (concat "pf-bash-one-liner-generator-from-natural-language" " done "
+                                      (int-to-string i)))
+                             ret))))
+               (results
+                (-uniq
+                 (flatten-once
+                  (cl-loop for rd in resultsdirs collect
+                           (if
+                               (sor rd)
+                               (->>
+                                   (glob
+                                    (concat rd "/*"))
+                                 (mapcar 'e/cat)
+                                 (mapcar
+                                  (lambda
+                                    (r)
+                                    (if
+                                        (and nil
+                                             (sor nil))
+                                        (pen-sn nil r)
+                                      r)))
+                                 (mapcar
+                                  (lambda
+                                    (r)
+                                    (if
+                                        (and
+                                         (variable-p 'prettify)
+                                         prettify nil
+                                         (sor nil))
+                                        (pen-sn nil r)
+                                      r)))
+                                 (mapcar
+                                  (lambda
+                                    (r)
+                                    (if
+                                        (not nil)
+                                        (s-trim-left r)
+                                      r)))
+                                 (mapcar
+                                  (lambda
+                                    (r)
+                                    (if
+                                        (not nil)
+                                        (s-trim-right r)
+                                      r)))
+                                 (mapcar
+                                  (lambda
+                                    (r)
+                                    (cl-loop for stsq in final-stop-sequences do
+                                             (let
+                                                 ((matchpos
+                                                   (string-search stsq r)))
+                                               (if matchpos
+                                                   (setq r
+                                                         (s-truncate matchpos r "")))))
+                                    r)))
+                             (list
+                              (message "Try UPDATE=y or debugging")))))))
+               (result
+                (if no-select-result
+                    (length results)
+                  (cl-fz results :prompt
+                         (concat "pf-bash-one-liner-generator-from-natural-language" ": ")
+                         :select-only-match t))))
+            (if no-select-result results
+              (if
+                  (interactive-p)
+                  (cond
+                   ((>=
+                     (prefix-numeric-value current-prefix-arg)
+                     4)
+                    (etv result))
+                   ((and nil mark-active)
+                    (replace-region result))
+                   ((or nil nil)
+                    (insert result))
+                   (t
+                    (etv result)))
+                result)))))))
+  
+  Symbol Properties
+  event-symbol-element-mask
+    (pf-bash-one-liner-generator-from-natural-language 0)
+  event-symbol-elements
+    (pf-bash-one-liner-generator-from-natural-language)
+  modifier-cache
+    ((0 . pf-bash-one-liner-generator-from-natural-language))
+#+END_SRC
+
 ** Supporting idea - pure imaginary code
 Pure imaginary programming is a type of programming where the original language
 models may not even be known.

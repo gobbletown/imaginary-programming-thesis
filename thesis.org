@@ -506,8 +506,9 @@ https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb
 - GPT-neo and GPT-3?
 - curie vs davinci?
 
-- Generate a story about a meeting
-- meeting-bullets-to-summary.prompt
+- Generate a story about a meeting with one prompt
+- Summarize with bullet points
+  - meeting-bullets-to-summary.prompt
 
 *** An impure imaginary data structure
 **** With one =Pen.el= system

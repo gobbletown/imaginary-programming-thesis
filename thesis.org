@@ -95,7 +95,7 @@ Impure imaginary code is very obviously useful
 as LMs such as GPT-3 are NLP generalists and
 only require a tiny amount of prompt design
 and/or fine-tuning to direct the LM to perform
-the NLP task you want.
+the NLP task you want via prompting.
 
 I demonstate that impure imaginary programming
 is useful for constructing an imaginary

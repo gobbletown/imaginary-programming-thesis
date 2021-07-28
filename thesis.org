@@ -397,7 +397,7 @@ Below is the generated interactive function in emacs lisp.
                 result)))))))
 #+END_SRC
 
-The above function creates NL shell. This
+The above function creates a NL shell. This
 enables you to generate shell commands based
 on NL and it is parameterized to enable you to
 specify which operating system the commands to

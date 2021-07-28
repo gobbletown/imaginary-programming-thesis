@@ -46,9 +46,9 @@ output. We say that an impure imaginary
 function is grounded [to reality] because it's
 connecting base reality to a LM.
 
-The output of an impure
-imaginary function is directly influenced by a
-query to a LM.
+The output and behaviour of an impure
+imaginary function is directly influenced by
+base reality plus a query to a LM.
 
 Those prompts may
 be designed in a process that is called prompt

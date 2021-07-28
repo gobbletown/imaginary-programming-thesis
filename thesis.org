@@ -34,10 +34,17 @@ definition that encapsulates all programming
 that solicits LMs and uses their output to
 affect a program's logic.
 
-Impure imaginary code is where ordinary code intersects with pure imaginary code.
-An impure imaginary function is just an
-ordinary function which queries a LM to define
-part of its behaviour. The output of an impure
+In contrast with imaginary code, ordinary code
+has not yet been contaminated by a LM, and we
+say that it has no imaginary dimension to it.
+
+Impure imaginary code is where ordinary code
+intersects with pure imaginary code. An impure
+imaginary function is a function that queries
+a LM to directly affect its own logic or
+output. The behaviour of an impure imaginary function
+
+The output of an impure
 imaginary function is directly influenced by a
 query to a LM.
 

@@ -528,4 +528,4 @@ thoughts.
 
 Once everyone stops believing in Fantasia it
 ceases to exist, as does the utility of
-imaginary code.
+applications built in pure imaginary code.

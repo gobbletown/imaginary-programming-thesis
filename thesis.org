@@ -473,6 +473,13 @@ https://semiosis.github.io/posts/imaginary-programming-with-gpt-3/
   postprocessor: clean-repl | pen-s join '; '
 #+END_SRC
 
+#+BEGIN_SRC emacs-lisp -n :async :results raw
+  (car (pf-code-interpreter-kickstarter "Haskell" "\"Hello\" ++ \" \" ++ \"World\"" :no-select-result t))
+#+END_SRC
+
+#+RESULTS:
+"Hello World"
+
 **** With two =Pen.el= systems
 ***** Using a common language model
 Translating communications with a world

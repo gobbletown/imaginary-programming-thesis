@@ -82,7 +82,7 @@ programming environment, performing code generation, transpiling, code
 understanding and NLP.
 
 *** Useful impure imaginary functions
-**** On one =Pen.el= system
+**** With one =Pen.el= system
 The following prompt function definition function
 associates a prompt with a LM (OpenAI's GPT-3
 davinci) and defines the parameters for a function in emacs lisp.

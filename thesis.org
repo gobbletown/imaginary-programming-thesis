@@ -430,6 +430,49 @@ You may also run it as a REPL.
 
 https://semiosis.github.io/posts/imaginary-programming-with-gpt-3/
 
+#+BEGIN_SRC yaml -n :async :results verbatim code
+  title: Code interpreter kickstarter
+  future-titles:
+  - Code interpreter kickstarter
+  doc: Given a line of code, infer the result of running that code
+  prompt-version: 3
+  prompt: |
+    Code examples:
+  
+    # Language: Python
+    print(random.randint(0,9))
+    # Output: 5
+    ###
+    # Language: Bash
+    Str="Learn Linux from LinuxHint"
+    subStr=${Str:6:5}
+    # Output: Linux
+    ###
+    # Language: <1>
+    <2>
+    # Output:
+  issues: 
+  engine: davinci
+  temperature: 0.8
+  max-tokens: 60
+  top-p: 1
+  stop-sequences:
+  - "##"
+  - "\n\n"
+  vars:
+  - language
+  - code
+  examples:
+  - haskell
+  - '"Hello" ++ " " ++ "World"'
+  prefer-external: true
+  external: iol
+  similarity-test: string-equal
+  quality-script: levenshtein -s
+  n-test-runs: 5
+  postprocessor: clean-repl | pen-s join '; '
+#+END_SRC
+
 **** With two =Pen.el= systems
 ***** Using a common language model
 Translating communications with a world

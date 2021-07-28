@@ -426,6 +426,10 @@ the above prompt function.
   sudo ufw disable
 #+END_SRC
 
+You may also run it as a REPL.
+
+https://semiosis.github.io/posts/imaginary-programming-with-gpt-3/
+
 **** With two =Pen.el= systems
 ***** Using a common language model
 Translating communications with a world

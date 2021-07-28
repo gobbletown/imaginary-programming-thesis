@@ -1,0 +1,5 @@
+- It's the basis for 'magic' services such as Copilot and AI Dungeon
+- GPT, despite generating new samples, still creates derivative works from the data sources it was trained on
+  - Arguably, the way people use software, which is captured and automated by GPT is more important than the software itself
+- occlusion of imaginary/holographic software is depriving people of understanding how things work
+

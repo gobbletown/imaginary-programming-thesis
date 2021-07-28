@@ -511,7 +511,7 @@ https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb
 *** TODO Find a useful impure imaginary algorithm
 **** With one =Pen.el= system
 - Translate from X to Y
-- backtranslate from Y to X
+- Backtranslate from Y to X
 
 Find a better prompt?
 **** With two =Pen.el= systems

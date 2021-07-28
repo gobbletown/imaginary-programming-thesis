@@ -28,7 +28,7 @@ the original author expressly forbid and
 mixing data with different licenses
 effectively relicences the same software.
 
-** Impure imaginary code is useful
+** Introduction
 The recently burgeoning and soon to diminish
 programming paradigm of prompt engineering is
 about to be superseded by prompt-tuning and
@@ -87,10 +87,12 @@ LM with a prompt.
 Such functions are the basis for services such
 as GitHub Copilot.
 
+** Impure imaginary code is useful
 I demonstate that impure imaginary programming
 is useful for constructing an imaginary
-programming environment, performing code generation, transpiling, code
-understanding and NLP.
+programming environment, performing code
+generation, transpiling, code understanding
+and NLP.
 
 *** Useful impure imaginary functions
 **** With one =Pen.el= system

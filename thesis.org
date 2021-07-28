@@ -410,6 +410,10 @@ on NL and it is parameterized to enable you to
 specify the operating system that the commands
 generated should run on.
 
+#+BEGIN_SRC emacs-lisp -n :async :results raw code
+  (list2str (pf-bash-one-liner-generator-on-os-from-natural-language "Arch Linux" "Disable firewall"))
+#+END_SRC
+
 **** With two =Pen.el= systems
 ***** Using a common language model
 Translating communications with a world

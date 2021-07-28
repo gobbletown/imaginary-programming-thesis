@@ -493,9 +493,6 @@ One useful utility of impure imaginary functions is translation.
 ***** With different language models
 GPT-neo and GPT-3?
 
-**** With three =Pen.el= systems
-- Database prompt
-
 *** An impure imaginary data structure
 **** With one =Pen.el= system
 - Database prompt

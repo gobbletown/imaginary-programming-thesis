@@ -502,7 +502,7 @@ https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb
 
 *** An impure imaginary data structure
 **** With one =Pen.el= system
-- Database prompt
+- Natural language database entry
 **** With two =Pen.el= systems
 - Database prompt
 **** With three =Pen.el= systems

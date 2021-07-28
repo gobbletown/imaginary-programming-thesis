@@ -513,7 +513,7 @@ the veil then you are compelled to imagine in
 order to create something useful.
 
 A person must build their own interface from
-the pure imaginary functions.
+the pure imaginary functions that are shared.
 
 It's a paradigm completely made up so it's
 useful as far as it's useful.

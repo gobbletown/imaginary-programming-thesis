@@ -433,6 +433,7 @@ language translation prompt function.
     ###
     # <1>: <3>
     # <2>:
+  lm-command: "openai-complete.sh"
   engine: davinci
   temperature: 0.5
   max-tokens: 200

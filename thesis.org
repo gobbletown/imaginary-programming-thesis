@@ -516,6 +516,9 @@ models may not even be known.
 
 I demonstate that collaborative pure imaginary programming is useful.
 
+*** Translation between two =Pen.el= systems with different language models
+A common library of pure imaginary functions.
+
 ** Supporting idea - projecting the code back to the starting LM
 - Semantic search on existing documents
 - Semantic search on existing functions in emacs

@@ -42,7 +42,8 @@ Impure imaginary code is where ordinary code
 intersects with pure imaginary code. An impure
 imaginary function is a function that queries
 a LM to directly affect its own logic or
-output. The behaviour of an impure imaginary function
+output. We say that an impure imaginary
+function is grounded [to reality].
 
 The output of an impure
 imaginary function is directly influenced by a

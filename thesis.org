@@ -98,11 +98,11 @@ generalist and only requires a tiny amount of
 prompt design and/or fine-tuning to direct it
 to perform the task you want.
 
-I demonstate that impure imaginary programming
-is useful for constructing an imaginary
-programming environment, performing code
-generation, transpiling, code understanding
-and NLP.
+Following are some demonstrations of using
+impure imaginary code to construct part of an
+imaginary programming environment, perform
+code generation, transpile code and translate
+world languages.
 
 *** Useful impure imaginary functions
 **** With one =Pen.el= system

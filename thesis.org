@@ -19,7 +19,8 @@ expressly forbid and mixing data with different licenses effectively relicences
 the same software.
 
 ** Supporting idea - impure imaginary code
-The burgeoning programming paradigm of prompt
+The recently burgeoning and soon to be
+diminishing programming paradigm of prompt
 engineering is about to be superseded by
 prompt-tuning and the fine-tuning of LMs which
 will further occlude the way that software

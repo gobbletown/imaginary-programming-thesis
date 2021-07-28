@@ -497,7 +497,8 @@ https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb
 #+END_EXPORT
 
 ***** With different language models
-GPT-neo and GPT-3?
+- GPT-neo and GPT-3?
+- curie vs davinci?
 
 *** An impure imaginary data structure
 **** With one =Pen.el= system

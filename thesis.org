@@ -661,11 +661,13 @@ generation, code understanding and modelling the usage of software.
 
 - The holographic representation
 
-*** =0.9 / 1= is still mostly stealing
+*** =0.9 / 1= is still stealing
 
 ** Counter arguments
 *** It's not imaginary, it's just... English? more like, stochastic programming?
-Imaginary programming is an activity.
+Imaginary programming is more of an activity
+and a style of programming and is not really
+concerned with the amount of uncertainty.
 
 Your code might take a trip through someone
 else's LM along the way and be projected back

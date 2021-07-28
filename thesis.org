@@ -21,6 +21,11 @@ models may not even be known.
 I demonstate that collaborative pure imaginary programming is useful.
 
 ** Supporting idea - language models contain a holographic representation of software
+I am able to generate parts of GPL protected software using language models and
+can query the language models as to how they are used.
+
+Therefore, the software exists now in the latent space of a language model in
+the form of a hologram.
 
 ** Give one more reason that supports your main idea
 Tell us one reason that supports your opinion. Write your reason as a clear

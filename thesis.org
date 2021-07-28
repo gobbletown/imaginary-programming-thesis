@@ -53,8 +53,9 @@ base reality plus a query to a LM.
 The query [or prompt] to the LM may be in part
 constructed manually through prompt
 engineering, or in part constructed
-automatically via prompt tuning, or in part constructed or eliminated by the fine-
-tuning of a LM. Even after fine-tuning, there
+automatically via prompt tuning, or in part 
+constructed or eliminated by the fine-tuning of a LM.
+Even after fine-tuning, there
 is still a query to be formulated to the LM,
 and that query may indeed be the empty string.
 
@@ -71,7 +72,8 @@ programming languages and to be clear, a
 prompt function is a function that queries a
 LM with a prompt.
 
-Such functions are the basis for services such as GitHub Copilot. Prompt-tuning still imaginary programming.
+Such functions are the basis for services such
+as GitHub Copilot.
 
 I demonstate that prompt engineering is useful for constructing an imaginary
 programming environment, code generation, code understanding and natural

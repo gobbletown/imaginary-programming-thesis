@@ -92,7 +92,7 @@ as GitHub Copilot.
 
 ** Impure imaginary code is useful
 Impure imaginary code is very obviously useful
-as it is simply prompting LMs and using the
+as prompting LMs and using the
 output to affect program behaviour.
 
 I demonstate that impure imaginary programming

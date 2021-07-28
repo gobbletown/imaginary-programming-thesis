@@ -23,7 +23,9 @@ Impure imaginary programming is prompt engineering. It is the basis for 'magic'
 services such as Copilot and AI Dungeon. This burgeoning programming paradigm
 is about to be superceeded by prompt-tuning, further occluding the way that software works.
 
-I demonstate that collaborative impure imaginary programming is useful and it is being used.
+I demonstate that prompt engineering is useful for constructing an imaginary
+programming environment, code generation, code understanding and natural
+language processing.
 
 ** Supporting idea - pure imaginary programming
 Pure imaginary programming is a type of programming where the original language
@@ -40,11 +42,6 @@ the form of a hologram, within and without the source code. Language models
 encode contrived associations made between different pieces of software in
 order to create an accurate model that is useful for simulation, code
 generation, code understanding and modelling the usage of software.
-
-** Spporting idea - language models
-Tell us one reason that supports your opinion. Write your reason as a clear
-statement. Be sure that you can support this reason with logical facts and
-evidence.
 
 ** Include an opposing viewpoint to your main idea, if applicable
 A good thesis statement acknowledges that there is always another side to the argument. So, include an opposing viewpoint (a counterargument) to your opinion. Basically, write down what a person who disagrees with your position might say about your topic.

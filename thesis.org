@@ -25,13 +25,18 @@ software both within (author inspiration) and
 without (how it is used) is just another
 representation of the software, alongside the
 original source code, just as functions may be
-represented differently. In the future, as
-holographic software is used more, and LMs are
-used more to simulate software, the hologram
-of the software may be used for reasons that
-the original author expressly forbid and
-mixing data with different licenses
-effectively relicences the same software.
+represented differently.
+
+It's important to avoid mixing training data
+of varying licenses when training LMs. 
+
+One risk is that in the future, as
+holographic representations of software are used more in place of running original source code (i.e. as LMs are
+used more to simulate software), a software's
+hologram is more likely to be used in ways that violate the
+original license or the spirit of it if the original code was part of the training data
+of a neural network alongside software of other conflicting licenses and in mixing  effectively relicences the
+same software.
 
 ** Introduction
 The recently burgeoning and soon to diminish

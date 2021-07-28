@@ -12,7 +12,10 @@ representation of the software, which I argue is a derivative work and a
 reflection of the original code. I argue that a holographic representation of
 software both within and without (how it is used) is just another
 representation of the software, alongside the original source code, just as
-functions may be represented differently.
+functions may be represented differently. In the future, as holographic
+software is used more, and language models are used more to simulate software,
+the hologram of the software may be used for reasons that the original author
+forbid.
 
 ** Supporting idea - pure imaginary programming
 Pure imaginary programming is a type of programming where the original language
@@ -25,7 +28,8 @@ I am able to generate parts of GPL protected software using language models and
 can query the language models as to how they are used.
 
 Therefore, the software exists now in the latent space of a language model in
-the form of a hologram.
+the form of a hologram, within and without the source code. Language models
+encode contrived associations made between different pieces of software
 
 ** Spporting idea - 
 Tell us one reason that supports your opinion. Write your reason as a clear

@@ -92,8 +92,10 @@ as GitHub Copilot.
 
 ** Impure imaginary code is useful
 Impure imaginary code is very obviously useful
-as LMs such as GPT-3 are NLP generalists with minimal finetuning and using the
-output to affect program behaviour.
+as LMs such as GPT-3 are NLP generalists and
+only require a tiny amount of prompt design
+and/or fine-tuning to direct the LM to perform
+the NLP task you want.
 
 I demonstate that impure imaginary programming
 is useful for constructing an imaginary

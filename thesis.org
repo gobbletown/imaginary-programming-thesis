@@ -624,6 +624,7 @@ Pure imaginary functions can be composed.
 
 ** New types of languages are required to work with language models
 *** Example-oriented
+*** Task oriented
 
 ** Projecting the code back to the starting LM is possible
 - Semantic search on existing documents

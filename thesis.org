@@ -81,9 +81,9 @@ is useful for constructing an imaginary
 programming environment, performing code generation, transpiling, code
 understanding and NLP.
 
-The following prompt definition function
-connects a prompt to a LM (OpenAI's GPT-3
-davinci).
+The following prompt function definition function
+associates a prompt with a LM (OpenAI's GPT-3
+davinci) and defines the parameters for a function in emacs lisp.
 
 #+BEGIN_SRC yaml -n :async :results verbatim code
   title: bash one liner generator on OS from natural language
@@ -124,6 +124,9 @@ davinci).
   postprocessor: 'sed ''s/^Output: //'''
   conversation-mode: true
 #+END_SRC
+
+The following is the generated documentation
+and function in emacs lisp.
 
 #+BEGIN_SRC text -n :async :results verbatim code
   pf-bash-one-liner-generator-from-natural-language is an interactive

@@ -414,6 +414,9 @@ generated should run on.
   (list2str (pf-bash-one-liner-generator-on-os-from-natural-language "Arch Linux" "Disable firewall" :no-select-result t))
 #+END_SRC
 
+Here is a list of suggestions generated from
+the above prompt function.
+
 #+BEGIN_SRC text -n :async :results verbatim code
   iptables -F
   iptables -P OUTPUT DROP

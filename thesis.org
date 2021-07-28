@@ -29,6 +29,11 @@ in the spotlight and as a result has not
 established itself as a sovereign programming
 paradigm.
 
+However, imaginary programming is a broader
+definition that encapsulates all programming
+that solicits LMs and uses their output to
+affect a program's logic.
+
 Impure imaginary code is where ordinary code intersects with pure imaginary code.
 An impure imaginary function is just an
 ordinary function which queries a LM to define

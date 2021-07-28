@@ -162,23 +162,6 @@ for the interactive prompt function in emacs.
 
   References
   pf-bash-one-liner-generator-from-natural-language is unused in pen-example-config.el.
-
-  Find all references Functions used by pf-bash-one-liner-generator-from-natural-language
-
-  Debugging
-  Enable tracing
-  Disassemble Forget
-
-  Source Code
-  ;; Defined in ~/source/git/semiosis/pen.el/src/pen-example-config.el
-
-  Symbol Properties
-  event-symbol-element-mask
-    (pf-bash-one-liner-generator-from-natural-language 0)
-  event-symbol-elements
-    (pf-bash-one-liner-generator-from-natural-language)
-  modifier-cache
-    ((0 . pf-bash-one-liner-generator-from-natural-language))
 #+END_SRC
 
 Below is the generated interactive function in emacs lisp.
@@ -482,17 +465,6 @@ language translation prompt function.
 - Database prompt
 **** With three =Pen.el= systems
 - Database prompt
-
-
-**** With one =Pen.el= system
-- Translate from X to Y
-**** With two =Pen.el= systems
-- Translate from X to Y
-- Translate from Y to X
-**** With three =Pen.el= systems
-- Translate from X to Y
-- Translate from Y to Z
-- Translate from Z to X
 
 *** TODO Find a useful impure imaginary algorithm
 **** With one =Pen.el= system

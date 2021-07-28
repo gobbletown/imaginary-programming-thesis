@@ -520,8 +520,7 @@ useful as far as it's useful.
 
 All this is based on this idea that we will
 have many finetuned and completely different
-transformer models and have to just start
-using them I guess.
+transformer models and we must learn to communicate.
 
 I guess neverending story also influenced my
 thoughts.

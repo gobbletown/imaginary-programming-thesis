@@ -478,6 +478,13 @@ A demonstration of backtranslation:
   To you
 #+END_SRC
 
+#+BEGIN_EXPORT html
+<!-- Play on asciinema.com -->
+<!-- <a title="asciinema recording" href="https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb" target="_blank"><img alt="asciinema recording" src="https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb.svg" /></a> -->
+<!-- Play on the blog -->
+<script src="https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb.js" id="asciicast-7YnSnrrLgbiFlyMyYxBgaZYUb" async></script>
+#+END_EXPORT
+
 **** With three =Pen.el= systems
 - Database prompt
 

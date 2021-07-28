@@ -496,8 +496,6 @@ https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb
 <script src="https://asciinema.org/a/7YnSnrrLgbiFlyMyYxBgaZYUb.js" id="asciicast-7YnSnrrLgbiFlyMyYxBgaZYUb" async></script>
 #+END_EXPORT
 
-One useful utility of impure imaginary functions is translation.
-
 ***** With different language models
 GPT-neo and GPT-3?
 

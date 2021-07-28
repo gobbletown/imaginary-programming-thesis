@@ -550,6 +550,8 @@ encode contrived associations made between different pieces of software in
 order to create an accurate model that is useful for simulation, code
 generation, code understanding and modelling the usage of software.
 
+- The holographic representation
+
 *** =0.9 / 1= is still
 
 ** Counter arguments

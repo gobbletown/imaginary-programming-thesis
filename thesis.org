@@ -478,7 +478,7 @@ https://semiosis.github.io/posts/imaginary-programming-with-gpt-3/
 #+END_SRC
 
 #+RESULTS:
-"Hello World"
+Hello World
 
 **** With two =Pen.el= systems
 ***** Using a common language model

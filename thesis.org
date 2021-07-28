@@ -397,6 +397,8 @@ Below is the generated interactive function in emacs lisp.
                 result)))))))
 #+END_SRC
 
+The above function creates natural language shell.
+
 ** Supporting idea - pure imaginary code
 Pure imaginary programming is a type of programming where the original language
 models may not even be known.

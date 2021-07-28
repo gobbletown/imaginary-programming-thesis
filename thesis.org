@@ -131,35 +131,46 @@ and function in emacs lisp.
 #+BEGIN_SRC text -n :async :results verbatim code
   pf-bash-one-liner-generator-from-natural-language is an interactive
   function defined in pen-example-config.el.
-  
+
   Signature
   (pf-bash-one-liner-generator-from-natural-language &optional TASK-DESCRIPTION &key NO-SELECT-RESULT)
-  
+
   Documentation
   bash one liner generator from natural language
   Get a bash one liner from natural language
-  
+
   path:
   - /home/shane/source/git/spacemacs/prompts/prompts/bash-one-liner.prompt
-  
+
   examples:
   - shift last argument
-  
+
   Key Bindings
   This command is not in any keymaps.
-  
+
   References
   pf-bash-one-liner-generator-from-natural-language is unused in pen-example-config.el.
-  
+
   Find all references Functions used by pf-bash-one-liner-generator-from-natural-language
-  
+
   Debugging
   Enable tracing
   Disassemble Forget
-  
+
   Source Code
   ;; Defined in ~/source/git/semiosis/pen.el/src/pen-example-config.el
   ;; Could not find source code, showing raw function object.
+
+  Symbol Properties
+  event-symbol-element-mask
+    (pf-bash-one-liner-generator-from-natural-language 0)
+  event-symbol-elements
+    (pf-bash-one-liner-generator-from-natural-language)
+  modifier-cache
+    ((0 . pf-bash-one-liner-generator-from-natural-language))
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   (lambda
     (&optional task-description &rest --cl-rest--)
     "bash one liner generator from natural language\nGet a bash one liner from natural language\n\npath:\n- /home/shane/source/git/spacemacs/prompts/prompts/bash-one-liner.prompt\n\nexamples:\n- shift last argument\n\n(fn &optional TASK-DESCRIPTION &key NO-SELECT-RESULT)"
@@ -383,14 +394,6 @@ and function in emacs lisp.
                    (t
                     (etv result)))
                 result)))))))
-  
-  Symbol Properties
-  event-symbol-element-mask
-    (pf-bash-one-liner-generator-from-natural-language 0)
-  event-symbol-elements
-    (pf-bash-one-liner-generator-from-natural-language)
-  modifier-cache
-    ((0 . pf-bash-one-liner-generator-from-natural-language))
 #+END_SRC
 
 ** Supporting idea - pure imaginary code

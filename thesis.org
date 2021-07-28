@@ -80,9 +80,12 @@ its associated LM to a function and then you
 have a prompt function.
 
 Prompt functions reconcile LMs with
-programming languages and to be clear, a
-prompt function is a function that queries a
-LM with a prompt.
+programming languages. A prompt
+function is just a function that prompts a LM
+and may optionally be parameterized with
+template variables that are substituted into
+the prompt or also contain hyperparameters to
+affect LM's operation.
 
 Such functions are the basis for services such
 as GitHub Copilot.

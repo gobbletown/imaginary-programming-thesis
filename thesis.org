@@ -14,13 +14,13 @@ software both within and without (how it is used) is just another
 representation of the software, alongside the original source code, just as
 functions may be represented differently.
 
-** Give a reason that supports your main idea
+** Supporting idea - pure imaginary programming
 Pure imaginary programming is a type of programming where the original language
 models may not even be known.
 
 I demonstate that collaborative pure imaginary programming is useful.
 
-** Give another reason that supports your main idea
+** Supporting idea - language models contain a holographic representation of software
 
 ** Give one more reason that supports your main idea
 Tell us one reason that supports your opinion. Write your reason as a clear

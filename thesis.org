@@ -523,10 +523,9 @@ have many finetuned and completely different
 transformer models and we must learn to
 communicate.
 
-I guess neverending story also influenced my
+The NeverEnding story also influenced my
 thoughts.
 
 Once everyone stops believing in Fantasia it
-ceases to exist.
-
-As does the utility of imaginary code.
+ceases to exist, as does the utility of
+imaginary code.

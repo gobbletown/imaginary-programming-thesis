@@ -44,4 +44,3 @@ order to create an accurate model that is useful for simulation, code
 generation, code understanding and modelling the usage of software.
 
 ** Include an opposing viewpoint to your main idea, if applicable
-A good thesis statement acknowledges that there is always another side to the argument. So, include an opposing viewpoint (a counterargument) to your opinion. Basically, write down what a person who disagrees with your position might say about your topic.

@@ -31,7 +31,8 @@ itself as a sovereign programming paradigm.
 However, imaginary programming is a broader
 definition that encapsulates all programming
 that solicits LMs and uses their output to
-affect a program's logic.
+affect a program's logic and will become
+important in the future.
 
 In contrast with imaginary code, ordinary code
 has not yet been contaminated by a LM, and we

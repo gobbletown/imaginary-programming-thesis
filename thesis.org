@@ -28,7 +28,7 @@ the original author expressly forbid and
 mixing data with different licenses
 effectively relicences the same software.
 
-** Supporting idea - impure imaginary code
+** Impure imaginary code is useful
 The recently burgeoning and soon to diminish
 programming paradigm of prompt engineering is
 about to be superseded by prompt-tuning and
@@ -516,7 +516,7 @@ Find a better prompt?
 **** With two =Pen.el= systems
 **** With three =Pen.el= systems
 
-** Supporting idea - pure imaginary code
+** Pure imaginary code is useful
 Pure imaginary programming is a type of programming where the original language
 models may not even be known.
 

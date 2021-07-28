@@ -10,8 +10,9 @@ be recognised as code so that it may be protected by GPL. I also posit that
 models of natural language, if trained on source code, create a holographic
 representation of the software, which I argue is a derivative work and a
 reflection of the original code. I argue that a holographic representation of
-software and how it is used is just another representation of it, alongside the
-original source code, just as functions may be represented differently.
+software both within and without (how it is used) is just another
+representation of the software, alongside the original source code, just as
+functions may be represented differently.
 
 ** Give a reason that supports your main idea
 Write your reason as a clear statement. Be sure that you can support this

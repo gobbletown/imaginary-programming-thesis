@@ -492,4 +492,38 @@ encode contrived associations made between different pieces of software in
 order to create an accurate model that is useful for simulation, code
 generation, code understanding and modelling the usage of software.
 
-** Include an opposing viewpoint to your main idea, if applicable
+** Counter arguments
+*** It's not imaginary, it's just... English? more like, stochastic programming?
+I thought of the final piece projecting the
+code back to the starting LM.
+
+So your code might take a trip through someone
+else's LM along the way and be projected back
+to your own.
+
+Guess that means that some of the logic is
+completely obscured and you have to make
+assumptions.
+
+And then you make a user interface or program
+in collaboration with others and since that
+code can't be fully understood by one person
+because of the veil I guess then you are kinda
+compelled to imagine in order to create
+something useful.
+
+It's a paradigm completely made up so it's
+useful as far as it's useful.
+
+All this is based on this idea that we will
+have many finetuned and completely different
+transformer models and have to just start
+using them I guess.
+
+I guess neverending story also influenced my
+thoughts.
+
+Once everyone stops believing in Fantasia it
+ceases to exist.
+
+As does the utility of imaginary code.

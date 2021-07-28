@@ -459,7 +459,6 @@ https://semiosis.github.io/posts/imaginary-programming-with-gpt-3/
   stop-sequences:
   - "##"
   - "\n"
-  # - "\n\n"
   vars:
   - language
   - code
@@ -472,7 +471,6 @@ https://semiosis.github.io/posts/imaginary-programming-with-gpt-3/
   quality-script: levenshtein -s
   conversation-mode: true
   n-test-runs: 5
-  # postprocessor: clean-repl | pen-s join '; '
 #+END_SRC
 
 #+BEGIN_SRC emacs-lisp -n :async :results raw

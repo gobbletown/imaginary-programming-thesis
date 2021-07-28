@@ -477,8 +477,9 @@ https://semiosis.github.io/posts/imaginary-programming-with-gpt-3/
   (car (pf-code-interpreter-kickstarter "Haskell" "\"Hello\" ++ \" \" ++ \"World\"" :no-select-result t))
 #+END_SRC
 
-#+RESULTS:
-Hello World
+#+BEGIN_SRC text -n :async :results verbatim code
+  Hello World
+#+END_SRC
 
 **** With two =Pen.el= systems
 ***** Using a common language model

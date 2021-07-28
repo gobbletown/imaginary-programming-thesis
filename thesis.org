@@ -56,15 +56,20 @@ engineering, or in part constructed
 automatically via prompt tuning, or in part constructed or eliminated by the fine-
 tuning of a LM. Even after fine-tuning, there
 is still a query to be formulated to the LM,
-and that query may indeed be empty.
+and that query may indeed be the empty string.
 
-, but functions, which are the functions that .
+Considering that large LMs such as GPT-3
+can perform multiple tasks, the process of
+refining a query through prompt-engineering,
+prompt-tuning or fine-tuning also
+characterises the expected output from the LM.
+All that is left is to map prompts to
+functions.
 
-Those prompts may
-be designed in a process that is called prompt
-engineering, or they may be the result of an
-optimisation process called prompt-tuning.
-A prompt function is a function that queries a language model with a prompt.
+Prompt functions reconcile LMs with
+programming languages and to be clear, a
+prompt function is a function that queries a
+LM with a prompt.
 
 Such functions are the basis for services such as GitHub Copilot. Prompt-tuning still imaginary programming.
 

@@ -403,6 +403,34 @@ on NL and it is parameterized to enable you to
 specify the operating system that the commands
 generated should run on.
 
+*** An impure imaginary data structure
+**** With one =Pen.el= system
+- Database prompt
+**** With two =Pen.el= systems
+- Database prompt
+**** With three =Pen.el= systems
+- Database prompt
+
+*** TODO Find a useful impure imaginary function
+**** With one =Pen.el= system
+- Translate from X to Y
+**** With two =Pen.el= systems
+- Translate from X to Y
+- Translate from Y to X
+**** With three =Pen.el= systems
+- Translate from X to Y
+- Translate from Y to Z
+- Translate from Z to X
+
+*** TODO Find a useful impure imaginary algorithm
+**** With one =Pen.el= system
+- Translate from X to Y
+- backtranslate from Y to X
+
+Find a better prompt?
+**** With two =Pen.el= systems
+**** With three =Pen.el= systems
+
 ** Supporting idea - pure imaginary code
 Pure imaginary programming is a type of programming where the original language
 models may not even be known.

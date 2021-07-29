@@ -1,0 +1,37 @@
+* TODO Design some experiments
+All I have to do is start creating programs
+and then the data structures and algorithms
+will reveal themselves.
+
+The experiments will be a little like this:
+each of us create a chatbot, someone generates
+a pick up line and we get the list of chatbots
+which found it funny. or each of us creates a
+database using a prompt and someone sends an
+NL instruction (transaction) and our
+individual databases process that transaction
+
+** [#A] Find a way to incorporate prolog
+Make this a priority.
+
+I want to run some prolog using GPT-3 queries.
+
+** Find a way to collaborate with metadata -- who is who, who ran what?
+- This may not be on-track.
+
+** Create a sequence diagram describing message passing
+Laria
+Shane
+Andrew
+Richard
+Nat
+
+Generate an instruction from the LM such as
+"ask shane to shut down the computer and give
+him the command".
+
+Laria and shane each run a shell.
+Pure imaginary function:
+Take the last token from Shane's shell and append it to Laria's shell.
+
+** I will have to create some new prompts though

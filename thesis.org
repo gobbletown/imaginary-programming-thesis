@@ -57,7 +57,8 @@ If the original code of an example of free
 software was part of the training data of a NN
 alongside software of other conflicting
 licenses then that effectively relicences the
-same software going forward into the future.
+same software without consent, going forward
+into the future.
 
 ** Introduction
 The recently burgeoning and soon to diminish

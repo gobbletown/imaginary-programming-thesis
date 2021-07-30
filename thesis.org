@@ -765,3 +765,17 @@ definition you just might find yourself
 sideswiped by an AI that does your imagination
 for you. If that's not intelligent, than what
 is?
+
+I work with GPT-3 every day. It's a great
+tool, but it needs a lot of hand-holding. This
+won't change with GPT-4 because the reason it
+needs hand-holding is because it lacks actual
+intelligence.
+
+It's a predictive model, which means it's only
+as good as its operator.
+
+That's again naive because the operator can be
+many people in collaboration. Languages and
+tools that query GPT will make it easier to
+control.

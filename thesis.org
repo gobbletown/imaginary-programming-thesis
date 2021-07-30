@@ -53,9 +53,11 @@ encodes the value of the software (the way
 it's used as opposed to written) is what's
 more important and that's is what is being exploited.
 
- if the original code was part of the training data
-of a neural network alongside software of other conflicting licenses and in mixing  effectively relicences the
-same software.
+If the original code of an example of free
+software was part of the training data of a NN
+alongside software of other conflicting
+licenses then that effectively relicences the
+same software going forward into the future.
 
 ** Introduction
 The recently burgeoning and soon to diminish

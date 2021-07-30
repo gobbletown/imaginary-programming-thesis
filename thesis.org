@@ -38,8 +38,20 @@ original license or the spirit of the license.
 
 LMs bring with them understanding of the way
 software is used, and also an understanding of
-the inspiration that went into designing said
-software.
+the inspiration that went into designing that
+software. The issue is that this is all
+automated and right now new software companies
+are staking their future on LMs and using said
+models to their fullest.
+
+Therefore, the inexorable conclusion is that
+software that has been used to train these
+models will be used holographically, perhaps
+more than even from their original software
+and their holographic representation that
+encodes the value of the software (the way
+it's used as opposed to written) is what's
+more important and that's is what is being exploited.
 
  if the original code was part of the training data
 of a neural network alongside software of other conflicting licenses and in mixing  effectively relicences the

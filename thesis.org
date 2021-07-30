@@ -751,7 +751,7 @@ language. Language permeates society and
 software. It's a step up and traversing this
 multidimensional space is as easy as writing
 code pre-GPT. So downplaying how
-transformative GPT is is a bit naive. While
+transformative GPT is a bit naive. While
 being hung up on whether or not GPT is
 'intelligent', it's automating whatever
 constitutes imaginary intelligence, since it

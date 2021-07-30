@@ -12,20 +12,23 @@ imaginary programming, make some
 demonstrations of programming within this
 paradigm and explore some useful data
 structures and algorithms that are both
-impurely and purely imaginary. The motivation
-for formalising this is not purely academic.
-Imaginary code needs to be recognised as code
-so that it may be protected by GPL. I also
-posit that models of NL, if trained on source
-code, create a holographic representation of
-the software, which I argue is a derivative
-work and a reflection of the original code. I
-argue that a holographic representation of
-software both within (author inspiration) and
-without (how it is used) is just another
-representation of the software, alongside the
-original source code, just as functions may be
-represented differently.
+impurely and purely imaginary. I'll also give
+an example of an imaginary programming
+language that I have created (perhaps the
+first of its kind), examplary. The motivation
+for formalising imaginary programming is not
+purely academic. Imaginary code needs to be
+recognised as code so that it may be protected
+by GPL. I also posit that models of NL, if
+trained on source code, create a holographic
+representation of the software, which I argue
+is a derivative work and a reflection of the
+original code. I argue that a holographic
+representation of software both within (author
+inspiration) and without (how it is used) is
+just another representation of the software,
+alongside the original source code, just as
+functions may be represented differently.
 
 It's important to avoid mixing training data
 of varying licenses when training LMs. 

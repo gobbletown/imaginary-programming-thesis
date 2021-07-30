@@ -633,7 +633,11 @@ Pure imaginary functions can be composed.
   ("translate" ("make analogy about" "topic") "from" "to")
 #+END_SRC
 
-** New types of languages are required to work with language models
+** Imaginary programming languages are required to work with language models
+*** Examplary
+- Part of it is task-oriented, which defers imagination to a language model to understand what it means.
+- Part of it is example-oriented, which is pure-imaginary.
+
 *** Example-oriented
 #+BEGIN_SRC emacs-lisp -n :async :results verbatim code
   ;; Convert lines to regex.

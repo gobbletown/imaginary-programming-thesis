@@ -34,7 +34,14 @@ One risk is that in the future, as
 holographic representations of software are used more in place of running original source code (i.e. as LMs are
 used more to simulate software), a software's
 hologram is more likely to be used in ways that violate the
-original license or the spirit of it if the original code was part of the training data
+original license or the spirit of the license.
+
+LMs bring with them understanding of the way
+software is used, and also an understanding of
+the inspiration that went into designing said
+software.
+
+ if the original code was part of the training data
 of a neural network alongside software of other conflicting licenses and in mixing  effectively relicences the
 same software.
 

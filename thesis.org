@@ -29,8 +29,9 @@ representation of software both within (author
 inspiration) and without (how it is used) is
 just another representation of the software,
 alongside the original source code, just as
-functions may be represented by formula or
-sets (domain and range).
+functions may be represented differently (by
+formula or sets; For example: domain and
+range).
 
 ** Introduction
 The recently burgeoning and soon to diminish

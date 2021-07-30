@@ -7,10 +7,11 @@ values of imaginary code, therefore, are
 imagined by a LM, but may also be used to
 facilitate the imagination of the programmer
 and may be considered to be a bicycle for the
-imagination. I will attempt to formalise
-imaginary programming, make some
-demonstrations of programming within this
-paradigm and explore some useful data
+imagination. This is very obvious when
+interacting with an imaginary REPL. I will
+attempt to formalise imaginary programming,
+make some demonstrations of programming within
+this paradigm and explore some useful data
 structures and algorithms that are both
 impurely and purely imaginary. I'll also give
 an example of an imaginary programming

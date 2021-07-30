@@ -747,15 +747,16 @@ applications built in pure imaginary code.
 *** I don't think anyone working in this field actually believes GPT is "intelligent". It's more like a calculator for words.
 
 GPT is a multidimensional representation of
-language and the extrapolation/continuation of
-language. Language permeates society and
-software. It makes for a big step forward in
-the domains of NLP and software engineering
-and traversing this multidimensional space is
-as easy as writing code pre-GPT. So
-downplaying how transformative GPT is a bit
-naive. While being hung up on whether or not
-GPT is 'intelligent', it's automating whatever
+language and its internal associations and the
+extrapolation/continuation of language.
+Language permeates society and software. It
+makes for a big step forward in the domains of
+NLP and software engineering and traversing
+this multidimensional space is as easy as
+writing code pre-GPT. So downplaying how
+transformative GPT is a bit naive. While being
+hung up on whether or not GPT is
+'intelligent', it's automating whatever
 constitutes imaginary intelligence, since it
 can literally generate multiverses forwards
 and backwards from a starting point in

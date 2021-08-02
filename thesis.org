@@ -783,3 +783,6 @@ That's again naive because the operator can be
 many people in collaboration. Languages and
 tools that query GPT will make it easier to
 control.
+
+** References
+- https://thegradient.pub/machine-translation-shifts-power/

@@ -786,3 +786,4 @@ control.
 
 ** References
 - https://thegradient.pub/machine-translation-shifts-power/
+- [[calibre:Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing]]

@@ -694,13 +694,25 @@ same software without consent, going forward
 into the future.
 
 *** https://en.wikipedia.org/wiki/Holography
-A hologram represents a recording of
-information regarding the light that came from
-the original scene as scattered in a range of
-directions rather than from only one
-direction, as in a photograph. This allows the
-scene to be viewed from a range of different
-angles, as if it were still present.
++ excerpt :: A hologram represents a recording of
+    information regarding the light that came from
+    the original scene as scattered in a range of
+    directions rather than from only one
+    direction, as in a photograph. This allows the
+    scene to be viewed from a range of different
+    angles, as if it were still present.
+
++ excerpt :: When the hologram is illuminated by the
+    original reference beam, each of the
+    individual zone plates reconstructs the object
+    wave that produced it, and these individual
+    wavefronts are combined to reconstruct the
+    whole of the object beam. The viewer perceives
+    a wavefront that is identical with the
+    wavefront scattered from the object onto the
+    recording medium, so that it appears that the
+    object is still in place even if it has been
+    removed.
 
 *** Generating parts of emacs with GPT-3
 I am able to generate parts of GPL protected

@@ -806,7 +806,6 @@ tools that query GPT will make it easier to
 control.
 
 *** it wasn't the Linux Foundation that built GPT-3
-
 the architecture maybe, but the weights, sure
 i can generate parts of emacs using gpt3
 and that my friend, is bullshit

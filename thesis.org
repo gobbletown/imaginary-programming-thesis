@@ -693,6 +693,7 @@ licenses then that effectively relicences the
 same software without consent, going forward
 into the future.
 
+*** https://en.wikipedia.org/wiki/Holography
 A hologram represents a recording of
 information regarding the light that came from
 the original scene as scattered in a range of

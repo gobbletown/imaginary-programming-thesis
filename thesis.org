@@ -693,6 +693,14 @@ licenses then that effectively relicences the
 same software without consent, going forward
 into the future.
 
+A hologram represents a recording of
+information regarding the light that came from
+the original scene as scattered in a range of
+directions rather than from only one
+direction, as in a photograph. This allows the
+scene to be viewed from a range of different
+angles, as if it were still present.
+
 *** Generating parts of emacs with GPT-3
 I am able to generate parts of GPL protected
 software using LMs and can query the LMs as to

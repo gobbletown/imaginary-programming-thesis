@@ -871,7 +871,7 @@ weights do not belong to them for commercial
 purposes
 
 ** Key points
-- The holographic representation of software is a more holistic and useful representation
+- The holographic representation of software is a more holistic and useful representation and is where the value is going into the future
 
 ** References
 - https://thegradient.pub/machine-translation-shifts-power/

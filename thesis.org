@@ -806,30 +806,69 @@ tools that query GPT will make it easier to
 control.
 
 *** it wasn't the Linux Foundation that built GPT-3
-the architecture maybe, but the weights, sure
-i can generate parts of emacs using gpt3
-and that my friend, is bullshit
-the architecture and hardware is the work of openai and they deserve credit for that, but the weights do not belong to them
+I like Codex and OpenAI and what they're
+doing, and I hope they remain in the lead and
+succeed, but I want them to support the
+people who they are building their company
+off of.
 
-i like codex and openai and what they're doing and i hope they remain in the lead and succeed
-but
-i want them to support the people who they are building their company off
-not just build on top of their hard work
-and not give back
-github didnt even consider making different copilot models for different licenses
-that shows they may hold a lot of code but licenses to them mean nothing
-it's not even an afterthought to them
-the worst part, if they finetune the model against free/libre software and other licenses, to prevent generating exact code snippets, then that is actually worse!
-it's worse because in actuality, the weights which were trained on that software are still being used
-except it's being masked on the final layers of the neural network
-and that's actually censorship
-from a moral standpoint it's deeply rotten
-the argument for why copilot/codex is theft is based on the fact that it encodes a holographic representation of the software (inspiration;fictional and actual) and usage of the software, not that it merely generates exact code snippets (which it can)
-and to finetune against generating exact code snippets obscures the actual point (that the deeper weights are encoding the inspiration for and usage of the software)
-and that's where the value of the original software is going into the future. that's where relicencing comes into it.
-because future software engineering is based on NLU and NLG, the holographic representation is the more useful representation
-and that's what's being stolen
-the future of the libre software is being stolen, not the past
+Not just build on top of their hard work and
+not give back.
+
+GitHub didn't even consider making different
+copilot models for different licenses.
+
+that shows they may hold a lot of code but
+licenses to them mean nothing.
+
+It's not even an afterthought to them.
+
+The worst part, if they fine-tune the model
+against free/libre software and other
+licenses, to prevent generating exact code
+snippets, then that is actually worse!
+
+It's worse because in actuality, the weights
+which were trained on that software are still
+being used.
+
+Except it's being masked on the final layers
+of the NN and that's actually censorship.
+
+From a moral standpoint it's deeply rotten.
+
+the argument for why copilot/codex is theft
+is based on the fact that it encodes a
+holographic representation of the software
+(inspiration;fictional and actual) and usage
+of the software, not that it merely generates
+exact code snippets (which it can).
+
+and to finetune against generating exact code
+snippets obscures the actual point (that the
+deeper weights are encoding the inspiration
+for and usage of the software).
+
+and that's where the value of the original
+software is going into the future.
+
+that's where relicencing comes into it.
+
+because future software engineering is based
+on NLU and NLG, the holographic representation
+is the more useful representation and that's
+what's being stolen.
+
+the future of the libre software is being
+stolen, not the past.
+
+They may own the architecture but they are
+holding the weights hostage. The architecture
+and hardware is the work of openai and they
+deserve credit for that and should be able to
+use them for research purposes, but the
+weights do not belong to them for commercial
+purposes
 
 ** References
 - https://thegradient.pub/machine-translation-shifts-power/

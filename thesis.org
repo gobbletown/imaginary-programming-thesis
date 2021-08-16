@@ -879,7 +879,7 @@ purposes
 ** References
 - https://thegradient.pub/machine-translation-shifts-power/
 - [[calibre:Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing]]
-*** Prolog
+*** Prolog terminology
 #+BEGIN_SRC sh -n :sps bash :async :results none
   ewwlinks +/"^A term is called ground if it contains no variables" "https://www.metalevel.at/prolog/data#term"
 #+END_SRC

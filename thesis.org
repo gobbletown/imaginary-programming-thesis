@@ -871,8 +871,19 @@ weights do not belong to them for commercial
 purposes
 
 ** Key points
-- The holographic representation of software is a more holistic and useful representation and is where the value is going into the future
+- The holographic representation of software
+  is a more holistic and useful representation
+  and is where the value is going into the
+  future
 
 ** References
 - https://thegradient.pub/machine-translation-shifts-power/
 - [[calibre:Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing]]
+*** Prolog
+#+BEGIN_SRC sh -n :sps bash :async :results none
+  ewwlinks +/"^A term is called ground if it contains no variables" "https://www.metalevel.at/prolog/data#term"
+#+END_SRC
+
+A compound term is called partially
+instantiated if one of its subterms is a
+variable. 

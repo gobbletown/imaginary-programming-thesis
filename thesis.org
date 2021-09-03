@@ -887,3 +887,20 @@ purposes
 A compound term is called partially
 instantiated if one of its subterms is a
 variable. 
+
+
+** Material
+*** https://www.theinsaneapp.com/2021/09/github-copilot-generated-40-percent-insecure-code.html
+
+But this problem is solved using GitHub's CodeQL for searching and filtering
+generated code. By combining Copilot with GitHub Semantic and GitHub CodeQL,
+you have a means of writing and generating the code you want in a secure way.
+This means that you no longer need the original source code that was used to
+train Codex. Training Codex and selling as a product in the form of Copilot
+steals the essence of the original source code used to train it, to build the
+future of programming, while paying nothing back to the original authors. Even
+Elon Musk was opposed to OpenAI exclusively licensing to Microsoft GPT.
+
+https://edition.cnn.com/2020/09/27/tech/elon-musk-tesla-bill-gates-microsoft-open-ai/index.html
+
+It's so transformative that people may allow it to circumvent licenses.

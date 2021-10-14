@@ -1,1 +1,0 @@
-- Imaginary Hash Function (𝑖HF)
